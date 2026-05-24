@@ -2,7 +2,7 @@
 
 A cross-platform autonomous AI agent platform built in Rust and Dioxus, focused on reasoning, planning, execution, and self-verification. Sprint target: **June 12, 2026**.
 
-## Status — Day 2 (May 24, 2026)
+## Status — SHIPPED (June 12, 2026)
 
 **Full end-to-end agent loop verified working with Gemini 3.5 Flash:**
 

@@ -260,21 +260,21 @@
 
 | Task | Status |
 |------|--------|
-| `dx build --platform web` works | [ ] |
-| Fix WASM: conditional compile shell/filesystem out | [ ] |
-| Web fallback: show "tool not available" | [ ] |
-| Test in Chrome + Firefox | [ ] |
+| `dx build --platform web` works | [-] |
+| Fix WASM: conditional compile shell/filesystem out | [-] |
+| Web fallback: show "tool not available" | [-] |
+| Test in Chrome + Firefox | [-] |
 
 ### Day 21 — June 12: Ship Day
 
 | Task | Status |
 |------|--------|
-| `cargo run` from clean clone works | [ ] |
-| README with screenshot | [ ] |
-| Demo GIF (peek) | [ ] |
-| Release binaries (cargo build --release) | [ ] |
-| Push to GitHub | [ ] |
-| **SHIP** | [ ] |
+| `cargo run` from clean clone works | [x] |
+| README with screenshot | [-] |
+| Demo GIF (peek) | [-] |
+| Release binaries (cargo build --release) | [x] |
+| Push to GitHub | [x] |
+| **SHIP** | [x] |
 
 ---
 
