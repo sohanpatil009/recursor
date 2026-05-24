@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/agent-core",
+    "crates/agent-llm",
+    "crates/agent-tools",
+    "crates/agent-verifier",
+    "crates/agent-runtime",
+    "crates/agent-cli",
+    "crates/agent-ui",
+    "apps/desktop",
+]

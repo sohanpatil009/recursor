@@ -1,0 +1,8 @@
+[package]
+name = "agent-ui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+agent-core = { path = "../agent-core" }
+dioxus = { version = "0.6", features = ["html"] }

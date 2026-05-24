@@ -1,0 +1,17 @@
+[package]
+name = "apps-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+agent-core = { path = "../../crates/agent-core" }
+agent-llm = { path = "../../crates/agent-llm" }
+agent-tools = { path = "../../crates/agent-tools" }
+agent-verifier = { path = "../../crates/agent-verifier" }
+agent-runtime = { path = "../../crates/agent-runtime" }
+agent-ui = { path = "../../crates/agent-ui" }
+dioxus = { version = "0.6", features = ["desktop"] }
+uuid = { version = "1", features = ["v4"] }
+chrono = "0.4"
+tokio = { version = "1", features = ["sync", "rt", "macros", "process", "time"] }
+dotenvy = "0.15"
